@@ -33,11 +33,7 @@ public class StudentService implements StudentServiceInterface {
 		return student;
 	}
 
-	public StudentDTO delete(int id) {
-		
-		StudentDTO delete=repository.delete(id);
-		return delete;
-	}
+	
 
 	
 
