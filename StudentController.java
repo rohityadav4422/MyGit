@@ -43,15 +43,6 @@ public class StudentController {
 		
 	}
 	
-	@PostMapping("/delete")
-	private ResponseEntity<StudentResponse> delete(int id){
-		StudentDTO delete=service.delete(id);
-		
-		return new ResponseEntity<StudentResponse>(new StudentResponse("OK", "Student Deleted", delete, null),HttpStatus.ACCEPTED);
-		
-		
 	
-		
-	}
 	
 }
