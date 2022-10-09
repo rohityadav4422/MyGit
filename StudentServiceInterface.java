@@ -12,6 +12,6 @@ public interface StudentServiceInterface {
 	StudentDTO searchByName(String name);
 	List<StudentDTO> findAll();
 	
-	StudentDTO delete(int id);
+	
 
 }
