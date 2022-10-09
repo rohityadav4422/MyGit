@@ -13,6 +13,6 @@ public interface StudentRepository extends CrudRepository<StudentDTO, Integer> {
 	StudentDTO findByName(String name);
 	public StudentDTO insertStudent(StudentDTO student);
 	List<StudentDTO> findAll();
-	StudentDTO delete(int id);
+	
 	
 }
